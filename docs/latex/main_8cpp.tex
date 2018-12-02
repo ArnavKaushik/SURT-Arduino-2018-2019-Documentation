@@ -1,0 +1,136 @@
+\hypertarget{main_8cpp}{}\section{main/main.cpp File Reference}
+\label{main_8cpp}\index{main/main.\+cpp@{main/main.\+cpp}}
+{\ttfamily \#include $<$Servo.\+h$>$}\newline
+{\ttfamily \#include $<$Software\+Serial.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}{setup}} ()
+\item 
+void \mbox{\hyperlink{main_8cpp_afe461d27b9c48d5921c00d521181f12f}{loop}} ()
+\item 
+void \mbox{\hyperlink{main_8cpp_acec0f339a75ca705f0b44acb84e1d56e}{start\+Motor}} (Servo servo)
+\begin{DoxyCompactList}\small\item\em This function sets the servo to 90. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a2c52f5749f5e41e3b0094061cd3064e8}{stop\+Motor}} (Servo servo)
+\begin{DoxyCompactList}\small\item\em This function sets the servo to 0. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Servo \mbox{\hyperlink{main_8cpp_a9f36fce2c29f8b449bb8e9e4fda21218}{right\+E\+SC}}
+\item 
+Servo \mbox{\hyperlink{main_8cpp_ae63c3b6c5ce6658ebc5e22e1951d7569}{left\+E\+SC}}
+\item 
+const int \mbox{\hyperlink{main_8cpp_a7a465cd0ec785c7124b195f520ffc313}{R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}} = 8
+\item 
+const int \mbox{\hyperlink{main_8cpp_ac23948eb1ac26b5dcaba58e2662c4a7c}{L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}} = 9
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_afe461d27b9c48d5921c00d521181f12f}\label{main_8cpp_afe461d27b9c48d5921c00d521181f12f}} 
+\index{main.\+cpp@{main.\+cpp}!loop@{loop}}
+\index{loop@{loop}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily void loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 46 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}\label{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}} 
+\index{main.\+cpp@{main.\+cpp}!setup@{setup}}
+\index{setup@{setup}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 36 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_acec0f339a75ca705f0b44acb84e1d56e}\label{main_8cpp_acec0f339a75ca705f0b44acb84e1d56e}} 
+\index{main.\+cpp@{main.\+cpp}!start\+Motor@{start\+Motor}}
+\index{start\+Motor@{start\+Motor}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{start\+Motor()}{startMotor()}}
+{\footnotesize\ttfamily void start\+Motor (\begin{DoxyParamCaption}\item[{Servo}]{servo }\end{DoxyParamCaption})}
+
+
+
+This function sets the servo to 90. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em servo} & A Servo object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{main_8cpp_a2c52f5749f5e41e3b0094061cd3064e8}{stop\+Motor()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 61 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a2c52f5749f5e41e3b0094061cd3064e8}\label{main_8cpp_a2c52f5749f5e41e3b0094061cd3064e8}} 
+\index{main.\+cpp@{main.\+cpp}!stop\+Motor@{stop\+Motor}}
+\index{stop\+Motor@{stop\+Motor}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{stop\+Motor()}{stopMotor()}}
+{\footnotesize\ttfamily void stop\+Motor (\begin{DoxyParamCaption}\item[{Servo}]{servo }\end{DoxyParamCaption})}
+
+
+
+This function sets the servo to 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em servo} & A Servo object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{main_8cpp_acec0f339a75ca705f0b44acb84e1d56e}{start\+Motor()}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 70 of file main.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_ac23948eb1ac26b5dcaba58e2662c4a7c}\label{main_8cpp_ac23948eb1ac26b5dcaba58e2662c4a7c}} 
+\index{main.\+cpp@{main.\+cpp}!L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN@{L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}}
+\index{L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN@{L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}{LEFT\_ESC\_PIN}}
+{\footnotesize\ttfamily const int L\+E\+F\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN = 9}
+
+The pin corresponding to the left E\+SC 
+
+Definition at line 33 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ae63c3b6c5ce6658ebc5e22e1951d7569}\label{main_8cpp_ae63c3b6c5ce6658ebc5e22e1951d7569}} 
+\index{main.\+cpp@{main.\+cpp}!left\+E\+SC@{left\+E\+SC}}
+\index{left\+E\+SC@{left\+E\+SC}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{left\+E\+SC}{leftESC}}
+{\footnotesize\ttfamily Servo left\+E\+SC}
+
+The servo corresponding to the left E\+SC 
+
+Definition at line 29 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a7a465cd0ec785c7124b195f520ffc313}\label{main_8cpp_a7a465cd0ec785c7124b195f520ffc313}} 
+\index{main.\+cpp@{main.\+cpp}!R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN@{R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}}
+\index{R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN@{R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN}{RIGHT\_ESC\_PIN}}
+{\footnotesize\ttfamily const int R\+I\+G\+H\+T\+\_\+\+E\+S\+C\+\_\+\+P\+IN = 8}
+
+The pin corresponding to the right E\+SC 
+
+Definition at line 32 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a9f36fce2c29f8b449bb8e9e4fda21218}\label{main_8cpp_a9f36fce2c29f8b449bb8e9e4fda21218}} 
+\index{main.\+cpp@{main.\+cpp}!right\+E\+SC@{right\+E\+SC}}
+\index{right\+E\+SC@{right\+E\+SC}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{right\+E\+SC}{rightESC}}
+{\footnotesize\ttfamily Servo right\+E\+SC}
+
+The servo corresponding to the right E\+SC 
+
+Definition at line 28 of file main.\+cpp.
+
